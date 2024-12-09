@@ -1,0 +1,74 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Cmake Build",
+            "type": "process",
+            "command" : "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--target",
+                "all"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher" : []
+        },
+        {
+            "label": "Cmake Clean",
+            "type": "process",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--target",
+                "clean"
+            ],
+            "problemMatcher":[]
+        },
+        {
+            "label": "avrdude",
+            "type": "shell",
+            "command": "/usr/bin/avrdude",
+            "args": [
+                "-v",
+                "-u",
+                "-p", "atmega128a",
+                "-c", "avrisp2",
+                "-P", "/dev/ttyUSB0",
+                "-b", "115200",
+                "-U", "flash:w:build/atmega128a.hex:i"
+            ],
+            "problemMatcher":[]
+        },
+        {   // 내장된 명령어
+            "label": "Build",
+            "dependsOrder": "sequence",
+            "dependsOn":[
+                "Cmake Build",
+                "avrdude"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Clean",
+            "dependsOrder": "sequence",
+            "dependsOn":[
+                "Cmake Clean"
+            ]
+        }
+        /*{ task explorer  만드는 예시
+            "label" : "test",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Cmake clean"
+            ]
+        }*/
+    ]
+}

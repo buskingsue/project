@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "atmega128a"
+		}
+	],
+	"settings": {
+		"cmake.cmakePath": "/usr/bin/cmake",
+		"cmake.configureArgs": [
+			"-DAVR_TOOLCHAIN_DIR=/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin",
+			"-DCMAKE_MAKE_PROGRAM=/usr/bin/make"
+		],
+		"cmake.generator": "Unix Makefiles",
+		"files.associations": {
+			"main.h": "c",
+			"ap.h": "c",
+			"def.h": "c",
+			"PWM16.C": "cpp",
+			"UART.C": "cpp",
+			"uart0..C": "cpp",
+			"stdio.h": "c",
+			"pwm16.h": "c",
+			"ultrasonic_int.h": "c",
+			"ultrasonic_cap.h": "c",
+			"pwm8.h": "c",
+			"i2c_lcd.h": "c",
+			"button.h": "c",
+			"uart0.h": "c",
+			"denamu.h": "c"
+		}
+	}
+}

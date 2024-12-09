@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/main.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/main.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/main.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/main.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/ap.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/ap.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/ap.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/ap.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/driver/button.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/driver/button.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/driver/button.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/driver/button.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/driver/denamu.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/driver/denamu.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/driver/denamu.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/driver/denamu.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/driver/display.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/driver/display.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/driver/display.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/driver/display.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/driver/i2c.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/driver/i2c.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/driver/i2c.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/driver/i2c.c.obj"
+},
+{
+  "directory": "/home/taeker/Dosazo_workspace/atmega128a/build",
+  "command": "/home/taeker/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc -DF_CPU=16000000UL -I/home/taeker/Dosazo_workspace/atmega128a/src -I/home/taeker/Dosazo_workspace/atmega128a/src/ap -I/home/taeker/Dosazo_workspace/atmega128a/src/bsp -I/home/taeker/Dosazo_workspace/atmega128a/src/hw -I/home/taeker/Dosazo_workspace/atmega128a/src/common -I/home/taeker/Dosazo_workspace/atmega128a/src/common/hw/include -mmcu=atmega128a -g -std=gnu11 -mmcu=atmega128a -fdata-sections -ffunction-sections -MMD -flto -fno-fat-lto-objects -Wall -Os -g3 -o CMakeFiles/atmega128a.elf.dir/src/driver/pwm16.c.obj -c /home/taeker/Dosazo_workspace/atmega128a/src/driver/pwm16.c",
+  "file": "/home/taeker/Dosazo_workspace/atmega128a/src/driver/pwm16.c",
+  "output": "CMakeFiles/atmega128a.elf.dir/src/driver/pwm16.c.obj"
+}
+]

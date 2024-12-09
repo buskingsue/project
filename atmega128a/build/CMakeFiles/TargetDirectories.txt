@@ -1,0 +1,3 @@
+/home/taeker/Dosazo_workspace/atmega128a/build/CMakeFiles/atmega128a.elf.dir
+/home/taeker/Dosazo_workspace/atmega128a/build/CMakeFiles/edit_cache.dir
+/home/taeker/Dosazo_workspace/atmega128a/build/CMakeFiles/rebuild_cache.dir
